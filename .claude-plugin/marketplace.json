@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "security-skills",
+  "owner": {
+    "name": "Peter Mfitumukiza",
+    "email": "mfitep6@gmail.com"
+  },
+  "description": "Defensive security skills for Claude Code.",
+  "plugins": [
+    {
+      "name": "wallet-stealer-defense",
+      "source": "./",
+      "description": "Detect, purge, and harden JS/TS repos against the 2026-Q2 wallet-stealer / supply-chain malware family.",
+      "license": "MIT",
+      "category": "security"
+    }
+  ]
+}

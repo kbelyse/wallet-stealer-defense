@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "wallet-stealer-defense",
+  "description": "Detect, purge, and harden JS/TS repos against the 2026-Q2 wallet-stealer / supply-chain malware family (obfuscated payloads on build-config files, blockchain-RPC dead-drops, forged commits).",
+  "author": {
+    "name": "Peter Mfitumukiza",
+    "email": "mfitep6@gmail.com"
+  },
+  "homepage": "https://github.com/Peter-Mfitumukiza/wallet-stealer-defense",
+  "repository": "https://github.com/Peter-Mfitumukiza/wallet-stealer-defense",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "malware",
+    "supply-chain",
+    "wallet-stealer",
+    "crypto",
+    "incident-response",
+    "javascript",
+    "typescript"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,12 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Never commit anything that looks like a real secret while testing the scanner
+.env
+.env.*
+*.pem
+*.key
