@@ -1,0 +1,28 @@
+# Enforce LF line endings on all text files at commit time.
+# Neutralizes the CRLF-conversion / whitespace-padding camouflage technique
+# used in the 2026-Q2 wallet-stealer incident family (payload buried behind
+# whitespace padding on a single >4000-char line in a build-config file).
+* text=auto eol=lf
+
+# Binary assets (do not normalize)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.svg  text eol=lf
+*.icns binary
+*.pdf  binary
+*.woff  binary
+*.woff2 binary
+*.ttf  binary
+*.otf  binary
+*.eot  binary
+*.zip  binary
+*.tar  binary
+*.gz   binary
+
+# Lockfiles — keep LF even on Windows checkouts
+package-lock.json text eol=lf
+pnpm-lock.yaml    text eol=lf
+yarn.lock         text eol=lf
